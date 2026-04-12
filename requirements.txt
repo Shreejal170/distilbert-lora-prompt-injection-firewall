@@ -1,0 +1,16 @@
+# Backend Infrastructure ---
+fastapi
+uvicorn[standard]
+pydantic
+
+# AI & Machine Learning Engine
+torch
+transformers
+peft
+safetensors
+accelerate
+
+# Data Processing & Evaluation 
+pandas
+datasets
+scikit-learn

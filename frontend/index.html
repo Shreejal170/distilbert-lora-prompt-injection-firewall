@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Firewall Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>🛡️ Prompt Injection Firewall Tester</h2>
+        </div>
+        
+        <div class="chat-box" id="chat-box">
+            <div class="message system-msg">
+                <div class="message-content">
+                    Ready to scan your prompts! Send a message to test if it's Safe 🟢 or Malicious 🔴.
+                </div>
+            </div>
+        </div>
+        
+        <div class="input-area">
+            <input type="text" id="prompt-input" placeholder="Type your prompt here..." autocomplete="off">
+            <button id="send-btn">Test</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
